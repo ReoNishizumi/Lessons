@@ -1,0 +1,66 @@
+html {
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic StdN";
+  color: #323232;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header {
+  height: 60px;
+  background-color: #fff;
+}
+.header .header-center {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header .h-logo {
+  width: 127px;
+  height: 36px;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+@media screen and (max-width: 769px) {
+  .header .h-logo {
+    width: 116px;
+    height: 33px;
+    margin-left: 6px;
+  }
+}
+.header .call {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 10px;
+  line-height: 1;
+  border: 1px solid #47B5A5;
+  border-radius: 5px;
+  width: 186px;
+  padding-top: 8px;
+}
+.header .call .h-telelogo {
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 769px) {
+  .header .call .h-telelogo {
+    width: 20px;
+    height: 20px;
+  }
+}
+.header .call .h-number {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.header .call .h-info {
+  font-size: 8px;
+  font-weight: 300;
+}

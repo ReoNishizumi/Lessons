@@ -1,0 +1,33 @@
+$breakpoint-up: (
+  "xs": "screen and (max-width: 321px)",
+  "sm": "screen and (max-width: 481px)",
+  "md": "screen and (max-width: 769px)",
+  "lg": "screen and (max-width: 993px)",
+  "xl": "screen and (max-width: 1201px)",
+) !default;
+
+
+@mixin mq-up($breakpoint) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+
+html{
+    background-color: #F5F5F5;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic StdN";
+    color: #323232;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    @include mq-up(md){
+        
+    }
+}
+
+

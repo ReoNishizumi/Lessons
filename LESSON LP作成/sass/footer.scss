@@ -1,0 +1,38 @@
+
+@mixin flex-c {
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #198273;
+    .f-logo{
+        padding-top: 15px;
+
+        @include flex-c();
+    }
+    .f-link{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 300;
+        margin: 16px 0;
+
+        @include flex-c();
+        .prl-8{
+            padding: 0 8px;
+        }
+        .f-border{
+            border-left: 1px solid #fff;
+            border-right: 1px solid #fff;
+
+            @extend.prl-8
+        }
+    }
+    .policy{
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 9px;
+
+        @include flex-c();
+    }
+}

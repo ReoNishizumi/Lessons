@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	width: 100%;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*cssここから追加 \*/
+
+.col-666{
+	color: #666;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.header{
+	display: flex;
+	border-bottom: 2px silver solid;
+	color: #666;
+}
+
+.hl-ul{
+	display: flex;
+	margin-left: 32px;
+	margin-top: 55px;
+}
+
+.hl-li{
+	margin: 8px;
+}
+
+.footer{
+	border-top: 2px silver solid;
+}
+
+.com-name{
+	float: right;
+	font-size: 11.5px;
+	padding: 10px;
+}
+
+.contents{
+	margin-bottom: 87px;
+}
+
+.recruit-image{
+	margin-left: 30px;
+}
+
+.title{
+	font-family:  'Gravitas One', cursive;
+	font-weight: 100;
+	font-size: 35px;
+	color: #00aaff;
+	margin: 25px 0 25px 15px;
+}
+
+.mb-140{
+	margin-bottom: 140px;
+}
+
+.qa-img{
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.qa-img:nth-child(1){
+	margin-top: 40px;
+}
+
+.map{
+	background-color: #e0ffff;
+	padding: 30px;
+}
+
+.map-h{
+	font-weight: bold;
+}
+
+.map-p{
+	font-size: smaller;
+}
+
+.g-map{
+	width: 950px;
+	height: 550px;
+}
+
+.inquiry {
+	margin: 0 auto;
+	width: 750px;
+}
+
+.ml-20{
+	margin-left: 20px;
+}
+
+.ml-20:nth-child(1){
+	margin-top: 10px;
+}
+
+.border{
+	line-height: 2rem;
+	border-top:1px gray solid;
+	border-bottom: 1px gray solid;
+	padding:10px 0 10px 30px;
+	background-color: #f5f5f5;
+}
+
+.col-red{
+	color: red;
+}
+
+.form-input{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.form{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.fix{
+	display:grid;
+	grid-template-columns: 110px 410px;
+	gap: 40px;
+	margin: 8px 0 10px 50px;
+	font-size: 0.9rem;
+}
+
+.wrapper2{
+	margin: 20px auto;
+	width: 650px;
+	text-align: center;
+}
+
+textarea{
+	width: 100%;
+}
+
+button{
+	margin: 20px 250px;
+	width: 100px;
+	height: 35px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	text-indent: 10px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.main-image{
+	border-top: 15px darkblue solid;
+	border-bottom: 15px darkblue solid;
+	position: relative;
+}
+
+.catch1{
+	width: 70%;
+	position: absolute;
+	top: 18%;
+	right: 15%;
+	display: none;
+}
+
+.catch2{
+	width: 70%;
+	position: absolute;
+	top: 18%;
+	right: 15%;
+	display: none;
+}
+
+.info{
+	margin-top: 5px;
+}
+
+.link{
+	display: flex;
+	justify-content: space-around;
+	font-size: 0.5rem;
+}
+
+.link-p{
+	margin-top: 5px;
+}
+
+.link-a{
+	font-size: 0.9rem;
+	color: #00aaff;
+}
+

@@ -1,0 +1,30 @@
+.footer {
+  background-color: #198273;
+}
+.footer .f-logo {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.footer .f-link {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer .f-link .prl-8, .footer .f-link .f-border {
+  padding: 0 8px;
+}
+.footer .f-link .f-border {
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+.footer .policy {
+  font-size: 12px;
+  color: #fff;
+  padding-bottom: 9px;
+  display: flex;
+  justify-content: center;
+}

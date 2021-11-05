@@ -1,0 +1,13 @@
+html {
+  background-color: #F5F5F5;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic StdN";
+  color: #323232;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}

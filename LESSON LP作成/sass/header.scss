@@ -1,0 +1,56 @@
+@import "base";
+
+.header{
+    height: 60px;
+    background-color: #fff;
+    .header-center{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .h-logo{
+        width: 127px;
+        height: 36px;
+        margin-top: 12px;
+        margin-left: 16px;
+
+        @include mq-up(md){
+            width: 116px;
+            height: 33px;
+            margin-left: 6px;
+        }
+    }
+
+    .call{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin-top: 10px;
+        line-height: 1;
+        border: 1px solid #47B5A5;
+        border-radius: 5px;
+        width: 186px;
+        padding-top: 8px;
+        .h-telelogo{
+            width: 24px;
+            height: 24px;
+
+            @include mq-up(md){
+                width: 20px;
+                height: 20px;
+            }
+        }
+        
+        .h-number{
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 4px;
+        }
+        
+        .h-info{
+            font-size: 8px;
+            font-weight: 300;
+        }
+    } 
+}
